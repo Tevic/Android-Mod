@@ -1,0 +1,7 @@
+libffmpeg_duokan.so
+libffmpeg_xm.so
+libjni_googlepinyinime_latinime_5.so
+libmiui_chromium.so
+libmiui_chromium_support.so
+libpinyin_data_bundle.so
+libvideochat_jni.so
