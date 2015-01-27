@@ -1,2 +1,2 @@
 # MIUI-Mod
-Custome Res for MIUI
+Custom Res for MIUI
