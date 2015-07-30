@@ -10,18 +10,17 @@ run_program("/tmp/busybox", "mount", "/cache");
 #------------------------------------------------------
 ui_print("Deleting Bloatware In App...");
 #------------------------------------------------------
-delete("/system/app/AMAPNetworkLocation.apk");
 delete("/system/app/AntHalService.apk");
+delete("/system/app/BaiduNetworkLocation.apk");
 delete("/system/app/BasicDreams.apk");
 delete("/system/app/BrowserProviderProxy.apk");
 delete("/system/app/BugReport.apk");
 delete("/system/app/Calculator.apk");
 delete("/system/app/CellBroadcastReceiver.apk");
-delete("/system/app/CertInstaller.apk");
 delete("/system/app/Cit.apk");
 delete("/system/app/CloudService.apk");
 delete("/system/app/DMService.apk");
-delete("/system/app/DocumentsUI.apk");
+delete("/system/app/DeskClock.apk");
 delete("/system/app/Email.apk");
 delete("/system/app/FileExplorer.apk");
 delete("/system/app/GPStestSvc.apk");
@@ -30,15 +29,15 @@ delete("/system/app/GameCenter.apk");
 delete("/system/app/GuardProvider.apk");
 delete("/system/app/HTMLViewer.apk");
 delete("/system/app/HoloSpiralWallpaper.apk");
-delete("/system/app/InterfacePermissions.apk");
 delete("/system/app/KingSoftCleaner.apk");
 delete("/system/app/LiveWallpapers.apk");
 delete("/system/app/MagicSmokeWallpapers.apk");
 delete("/system/app/MiAssistant.apk");
+delete("/system/app/MiFinance.apk");
 delete("/system/app/MiLinkService.apk");
 delete("/system/app/MiWallpaper.apk");
 delete("/system/app/Mipay.apk");
-delete("/system/app/MiuiSuperMarket.apk");
+delete("/system/app/MiuiCompass.apk");
 delete("/system/app/MiuiVideo.apk");
 delete("/system/app/NVItem.apk");
 delete("/system/app/Nfc.apk");
@@ -53,11 +52,14 @@ delete("/system/app/Provision.apk");
 delete("/system/app/QComQMIPermissions.apk");
 delete("/system/app/QuickSearchBox.apk");
 delete("/system/app/SVIService.apk");
+delete("/system/app/SoundRecorder.apk");
 delete("/system/app/Stk.apk");
+delete("/system/app/SystemAdSolution.apk");
+delete("/system/app/TSMClient.apk");
 delete("/system/app/TrafficControl.apk");
-delete("/system/app/UserDictionaryProvider.apk");
 delete("/system/app/VisualizationWallpapers.apk");
 delete("/system/app/VoiceAssist.apk");
+delete("/system/app/WAPPushManager.apk");
 delete("/system/app/WfdService.apk");
 delete("/system/app/Whetstone.apk");
 delete("/system/app/XiaomiAccount.apk");
@@ -65,9 +67,10 @@ delete("/system/app/XiaomiServiceFramework.apk");
 delete("/system/app/fastdormancy.apk");
 delete("/system/app/ims.apk");
 delete("/system/app/matcli.apk");
-delete("/system/app/miui.apk");
 delete("/system/app/qcrilmsgtunnel.apk");
 delete("/system/app/shutdownlistener.apk");
+
+
 
 
 
@@ -78,24 +81,27 @@ delete("/system/priv-app/Backup.apk");
 delete("/system/priv-app/BackupRestoreConfirmation.apk");
 delete("/system/priv-app/BarcodeScanner.apk");
 delete("/system/priv-app/Browser.apk");
-delete("/system/priv-app/CloudAppBackup.apk");
+delete("/system/priv-app/CleanMaster.apk");
+delete("/system/priv-app/CloudBackup.apk");
 delete("/system/priv-app/GooglePinyinIME.apk");
 delete("/system/priv-app/InputDevices.apk");
 delete("/system/priv-app/MiGameCenterSDKService.apk");
+delete("/system/priv-app/Mipub.apk");
+delete("/system/priv-app/MiuiGallery.apk");
 delete("/system/priv-app/MiuiHome.apk");
+delete("/system/priv-app/MiuiRadio.apk");
+delete("/system/priv-app/MiuiVoip.apk");
 delete("/system/priv-app/Mms.apk");
 delete("/system/priv-app/Music.apk");
 delete("/system/priv-app/MusicFX.apk");
 delete("/system/priv-app/OneTimeInitializer.apk");
-delete("/system/priv-app/ProxyHandler.apk");
 delete("/system/priv-app/SharedStorageBackup.apk");
 delete("/system/priv-app/Shell.apk");
 delete("/system/priv-app/SmartcardService.apk");
 delete("/system/priv-app/Tag.apk");
 delete("/system/priv-app/com.qualcomm.location.apk");
 delete("/system/priv-app/com.qualcomm.msapm.apk");
-delete("/system/priv-app/com.qualcomm.services.location.apk");
-delete("/system/priv-app/xtra_t_app.apk");
+
 
 
 
