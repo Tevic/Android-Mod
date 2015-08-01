@@ -118,6 +118,8 @@ ui_print("Deleting Others...");
 #------------------------------------------------------
 delete_recursive("/system/obj");
 delete_recursive("/system/tts");
+delete_recursive("system/media/theme/.data/preview");
+
 
 #------------------------------------------------------
 ui_print("Deleting Cache...");
