@@ -11,6 +11,7 @@ run_program("/tmp/busybox", "mount", "/cache");
 ui_print("Deleting Bloatware In App...");
 #------------------------------------------------------
 delete("/system/app/AntHalService.apk");
+delete("/system/app/ThemeManager.apk");
 delete("/system/app/BaiduNetworkLocation.apk");
 delete("/system/app/BasicDreams.apk");
 delete("/system/app/BrowserProviderProxy.apk");

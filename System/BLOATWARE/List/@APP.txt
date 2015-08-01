@@ -1,3 +1,4 @@
+ThemeManager.apk
 AntHalService.apk
 BaiduNetworkLocation.apk
 BasicDreams.apk
