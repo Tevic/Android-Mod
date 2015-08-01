@@ -113,10 +113,14 @@ ui_print("Deleting Bloatware In Lib...");
 #------------------------------------------------------
 
 
-
-
 #------------------------------------------------------
 ui_print("Deleting Others...");
+#------------------------------------------------------
+delete_recursive("/system/obj");
+delete_recursive("/system/tts");
+
+#------------------------------------------------------
+ui_print("Deleting Cache...");
 #------------------------------------------------------
 #delete_recursive("/data/dalvik-cache");
 #delete_recursive("/cache");
