@@ -1,2 +1,1 @@
-# MIUI-Mod
-Custom Res for MIUI
+# Android-Mod
