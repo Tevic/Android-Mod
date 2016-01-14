@@ -1,0 +1,3 @@
+device=cancro
+build_number=6.1.14
+userdata_version=20160107.0000.12
