@@ -1,0 +1,6 @@
+Exclude CalSync
+Exclude FaceDetect
+Exclude FaceUnlock
+Exclude PackageInstallerGoogle
+Exclude GoogleTTS
+skipswypelibs
