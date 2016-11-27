@@ -1,7 +1,7 @@
 #!/bin/bash
 rm *.txt hosts
 URL1=https://coding.net/u/Elaine_ni/p/hosts/git/raw/master/hosts.txt
-URL2=https://raw.githubusercontent.com/vokins/simpleu/master/hosts
+URL2=https://raw.githubusercontent.com/vokins/simpleu/master/data/hosts
 URL3=https://raw.githubusercontent.com/lack006/Android-Hosts-L/master/hosts_files/2016_hosts/AD
 URL4=https://raw.githubusercontent.com/vokins/yhosts/master/hosts
 
