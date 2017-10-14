@@ -22,3 +22,5 @@ sort Temp1.txt | uniq >> Temp2.txt
 
 cp Temp2.txt hosts
 rm *.txt
+
+#127.0.0.1 cps.dianping.com
