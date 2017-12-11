@@ -1,6 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableDelayedExpansion
 COLOR 3F
+SET PATH=..\SDKPlatformTools;%PATH%
 
 CD .\IMG
 SET  INDEX=1

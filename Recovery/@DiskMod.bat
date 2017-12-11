@@ -1,5 +1,6 @@
 @ECHO OFF
 TITLE
+SET PATH=..\SDKPlatformTools;%PATH%
 echo Use MiFlash To Recovery aboot Partition!
 echo Please Make Backup!
 echo Enter Fastboot Mod ( Power & Vol+ )
