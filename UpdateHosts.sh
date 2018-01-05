@@ -6,6 +6,12 @@ URLS=(
     https://raw.githubusercontent.com/vokins/yhosts/master/hosts
 )
 
+EXCLUDES=(
+    cps.dianping.com
+    fp.fraudmetrix.cn
+    static.fraudmetrix.cn
+)
+
 INDEX=0
 for URL in ${URLS[@]}; do
 {
@@ -20,7 +26,11 @@ sed -i '/localhost/d' Temp1.txt
 echo '#' $(date) > Temp2.txt
 sort Temp1.txt | uniq >> Temp2.txt
 
+for EXCLUDE in ${EXCLUDES[@]}; do
+{
+    sed -i "/${EXCLUDE}/d" Temp2.txt
+}
+done
+
 cp Temp2.txt hosts
 rm *.txt
-
-#127.0.0.1 cps.dianping.com
