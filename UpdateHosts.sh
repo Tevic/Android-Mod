@@ -10,6 +10,7 @@ EXCLUDES=(
     cps.dianping.com
     fp.fraudmetrix.cn
     static.fraudmetrix.cn
+    bit.ly
 )
 
 INDEX=0
